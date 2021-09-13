@@ -9,7 +9,6 @@ echo Downloading Game
   goto play
  
  :play
- timeout 230
  %APPDATA%\GenshinImpact\m %APPDATA%\GenshinImpact\role.mp3
  
  goto play
