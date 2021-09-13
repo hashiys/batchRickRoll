@@ -10,6 +10,7 @@ echo Downloading Game
   goto play
  
  :play
+ timeout 230
  %APPDATA%\yompBest\m %TEMP%\yompBest\role.mp3
  
  goto play
